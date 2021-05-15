@@ -8,36 +8,30 @@
     <title>Notes App</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand">Notes</a>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input">
-            <button class="btn btn-outline-light" type="submit" id="search" >Search</button>
-          </form>
-        </div>
-      </nav> 
-    <div class="card-body mx-3" style="margin-left: 20%;margin-right: 20%;" >
-          
-          <div class="container">
-            <h5 class="card-title mx-3">Add Note</h5>
-             <textarea class="form-control  my-3 mx-3  " style="height:100px; overflow: hidden;"   placeholder=" write note.." id="addTxt"></textarea>
-            <button class="btn btn-dark mx-3  " id="addBtn" >Add Note</button>
-            <div id="edit-box">
-           <button class="btn btn-dark float-right"  id="save">Save</button>
-           <button class="btn btn-dark" id="cancel" onclick="cancel()">Cancel</button>
-         </div>
-         </div>
-     
-      <hr class="mx-3">
-      
-      <h3  style="margin-left: 10%;" >Yours Notes</h3>
-      <div class="row container-fluid   " id="noteTxt"  >
-
- 
-      
-     </div>
-    </div>
+<nav class="navbar navbar-dark bg-dark">
+ <div class="container-fluid">
+  <a class="navbar-brand">Notes</a>
+<form class="d-flex">
+<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input">
+<button class="btn btn-outline-light" type="submit" id="search" >Search</button>
+</form>
+</div>
+</nav> 
+<div class="card-body mx-3" style="margin-left: 20%;margin-right: 20%;" >
+<div class="container">
+<h5 class="card-title mx-3">Add Note</h5>
+<textarea class="form-control  my-3 mx-3  " style="height:100px; overflow: hidden;"   placeholder=" write note.." id="addTxt"></textarea>
+<button class="btn btn-dark mx-3  " id="addBtn" >Add Note</button>
+<div id="edit-box">
+<button class="btn btn-dark float-right"  id="save">Save</button>
+<button class="btn btn-dark" id="cancel" onclick="cancel()">Cancel</button>
+</div>
+</div>
+<hr class="mx-3">
+<h3  style="margin-left: 10%;" >Yours Notes</h3>
+<div class="row container-fluid   " id="noteTxt"  >
+</div>
+</div>
    
      
  
