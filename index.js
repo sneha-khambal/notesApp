@@ -10,7 +10,6 @@ let title = document.getElementById('title');
 addBtn.addEventListener("click",getNotes);
 //funtion to add note
  function getNotes(){
- 
   let notes= localStorage.getItem("note");
    if(notes == null){
        notesArray = []; 
@@ -73,8 +72,7 @@ if(confirm('confirm') == false){
 }
 else{var  task = addTxt.value;
      notesArray.splice(index,1,task);
-        
-        localStorage.setItem("note" , JSON.stringify(notesArray));
+       localStorage.setItem("note" , JSON.stringify(notesArray));
         addTxt.value="";
     } 
     showNote();
